@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#1b1b19" />
+  <meta name="description" content="Architectural visualization case study by Abdelmounaim Chekroun." />
+  <title>Project case study — Abdelmounaim Chekroun</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://images.unsplash.com" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="case-page">
+  <a class="skip-link" href="#case-study">Skip to content</a>
+
+  <header class="site-header is-scrolled" id="siteHeader">
+    <div class="nav-shell">
+      <a class="wordmark" href="index.html#home">
+        <span class="wordmark-mark">AC</span>
+        <span class="wordmark-name">Abdelmounaim<br />Chekroun</span>
+      </a>
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="index.html#work">Work</a>
+        <a href="index.html#services">Services</a>
+        <a href="index.html#process">Process</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+      <a class="nav-cta" href="index.html#contact">Start a project <span aria-hidden="true">↗</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open navigation menu">
+        <span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+      <div class="mobile-menu-top">
+        <span class="eyebrow">Menu / 00</span>
+        <button class="menu-close" type="button">Close <span>×</span></button>
+      </div>
+      <nav aria-label="Mobile navigation">
+        <a href="index.html#work">Work <span>01</span></a>
+        <a href="index.html#services">Services <span>02</span></a>
+        <a href="index.html#process">Process <span>03</span></a>
+        <a href="index.html#about">About <span>04</span></a>
+        <a href="index.html#contact">Contact <span>05</span></a>
+      </nav>
+      <a class="mobile-menu-cta" href="index.html#contact">Start a project <span>↗</span></a>
+    </div>
+  </header>
+
+  <main id="case-study">
+    <div id="caseStudy" class="case-study">
+      <section class="case-hero">
+        <div class="container">
+          <a class="case-back reveal" href="index.html#work"><span aria-hidden="true">←</span> Back to selected work</a>
+          <div class="case-heading reveal">
+            <div>
+              <p class="section-index" id="caseIndex">Project / 01</p>
+              <h1 id="caseTitle">Project title</h1>
+            </div>
+            <p class="case-type" id="caseType">Architectural visualization</p>
+          </div>
+          <div class="case-hero-image reveal">
+            <img id="caseHeroImage" src="images/projects/woodland-house/woodland-exterior.jpg" alt="" fetchpriority="high" />
+            <span class="case-image-caption" id="caseHeroCaption">Selected view / 01</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="case-overview">
+        <div class="container">
+          <div class="case-facts reveal">
+            <div><span>Location</span><strong id="caseLocation">—</strong></div>
+            <div><span>Project type</span><strong id="caseProjectType">—</strong></div>
+            <div><span>Scope</span><strong id="caseScope">—</strong></div>
+            <div><span>Year</span><strong id="caseYear">—</strong></div>
+          </div>
+          <div class="case-description reveal">
+            <p class="section-index">Project overview</p>
+            <div>
+              <p id="caseText">Project description will appear here.</p>
+              <div class="case-services-wrap">
+                <span class="case-label">Services</span>
+                <div class="case-services" id="caseServices"></div>
+              </div>
+              <div class="case-software-wrap">
+                <span class="case-label">Software</span>
+                <div class="case-software" id="caseSoftware"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="case-story">
+        <div class="container case-story-grid">
+          <div class="reveal">
+            <p class="section-index">The visual concept</p>
+            <h2>Make the idea<br /><em>felt.</em></h2>
+          </div>
+          <div class="case-story-copy reveal">
+            <p id="caseConcept">The visual concept will appear here.</p>
+            <p id="caseObjective">The project objective will appear here.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="case-gallery-section" aria-labelledby="gallery-title">
+        <div class="container">
+          <div class="case-gallery-heading reveal">
+            <p class="section-index">Selected frames</p>
+            <h2 id="gallery-title">A closer<br /><em>look.</em></h2>
+          </div>
+          <div class="case-gallery" id="caseGallery"></div>
+        </div>
+      </section>
+
+      <section class="case-animation-section" aria-labelledby="animation-title">
+        <div class="container case-animation-grid">
+          <div class="case-animation-visual reveal">
+            <div class="animation-frame" id="animationFrame">
+              <video class="case-video" id="caseVideo" controls preload="none" playsinline aria-label="Project architectural animation"></video>
+              <button class="animation-play" id="animationPlay" type="button" aria-label="Play project animation" aria-hidden="true">▶</button>
+              <div class="animation-overlay-label"><span id="animationLabel">Animation preview</span><span id="animationDuration">Motion study</span></div>
+            </div>
+          </div>
+          <div class="reveal">
+            <p class="section-index section-index-light">Motion studies</p>
+            <h2 id="animation-title">Architecture<br /><em>in motion.</em></h2>
+            <p id="animationDescription">Camera movement, atmosphere, and pace turn a sequence of frames into a story. This motion study is ready to play.</p>
+            <a class="text-link text-link-light" href="index.html#contact">Discuss an animation <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="case-cta">
+        <div class="container case-cta-inner reveal">
+          <p class="section-index">Have a project that needs visualization?</p>
+          <h2>Let's make it<br /><em>tangible.</em></h2>
+          <a class="button button-dark" href="index.html#contact">Start a project <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <a class="wordmark wordmark-footer" href="index.html#home"><span class="wordmark-mark">AC</span><span class="wordmark-name">Abdelmounaim<br />Chekroun</span></a>
+      <p>Architecture, made visible.</p>
+      <a class="back-to-top" href="#case-study">Back to top <span aria-hidden="true">↑</span></a>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span id="currentYear"></span> Abdelmounaim Chekroun</span>
+      <span>Architectural visualization &amp; animation</span>
+      <span>Algeria / Worldwide</span>
+    </div>
+  </footer>
+
+  <script src="projects.js"></script>
+  <script src="project.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
